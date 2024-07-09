@@ -12,22 +12,18 @@
   justify-content: center;
   align-items: center;
 }
-
 .sidebar nav ul {
   list-style: none;
   padding: 0;
 }
-
 .sidebar nav ul li {
   margin: 1rem 0;
 }
-
 .sidebar nav ul li a {
   text-decoration: none;
   color: white;
   font-size: 1.5rem;
 }
-
 .sidebar.open {
   right: 0;
 }

@@ -7,18 +7,15 @@
   transition: background-color 1s ease;
   overflow: hidden;
 }
-
 #bg-sidebar {
   opacity: 1;
   transition: opacity 5s ease, max-width 1.5s ease;
 }
-
 .fade-out {
   opacity: 0;
   max-width: 0;
   visibility: hidden;
 }
-
 .fade-in {
   opacity: 1;
   max-width: 30%;
