@@ -6,8 +6,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
   hamburger.addEventListener("click", function () {
     sidebar.classList.toggle("open");
+    hamburger.classList.add("open");
     if (bgSideBar.classList.contains("fade-in")) {
       bgSideBar.classList.remove("fade-in");
+      hamburger.classList.remove("open");
       bgSideBar.classList.add("fade-out");
     } else {
       bgSideBar.classList.remove("fade-out");
@@ -24,6 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
       sidebar.classList.remove("open");
       bgSideBar.classList.remove("fade-in");
       bgSideBar.classList.add("fade-out");
+      hamburger.classList.remove("open");
     }
   });
   bgSideBar.classList.add("fade-out");

@@ -1,5 +1,5 @@
 body {
-  background: rgba(53, 5, 87, 0.637);
+  background: var(--cor-p0);
   position: relative;
 }
 .container {
@@ -10,7 +10,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: rgba(23, 204, 2, 0.3);
 }
 
 /* Tablet */
