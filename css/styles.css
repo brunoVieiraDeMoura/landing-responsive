@@ -4,6 +4,7 @@
 @import url(./global/margin-txt.css);
 @import url(./global/midiaquery-txt-margin.css);
 @import url(./global/typograph.css);
+@import url(./global/container.css);
 
 /* GLOBAL CSS FIX */
 @import url(./header/header.css);
