@@ -8,6 +8,8 @@
 
 /* GLOBAL CSS FIX */
 @import url(./header/header.css);
+@import url(./header/side-bar.css);
+@import url(./header/bg-sidebar.css);
 @import url(./footer/footer.css);
 
 /* CSS PAGES */

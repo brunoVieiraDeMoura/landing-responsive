@@ -214,3 +214,16 @@
     font-size: 1rem;
   }
 }
+
+/* Tablet */
+@media (min-width: 481px) and (max-width: 768px) {
+}
+/* Desktop pequeno */
+@media (min-width: 769px) and (max-width: 1024px) {
+}
+/* Desktop médio */
+@media (min-width: 1025px) and (max-width: 1200px) {
+}
+/* Desktop grande */
+@media (min-width: 1201px) {
+}
